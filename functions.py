@@ -4,7 +4,7 @@ import os
 import sys
 import time
 
-# Optional color system (works on most terminals)
+# random colour system that works on most terminals
 USE_COLOR = True
 
 def c(text, color):
@@ -132,7 +132,7 @@ def read_intro_file():
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
             content = file.read()
-            type_text(content, delay=0.015)
+            type_text(content, delay=0.02)
 
         while True:
             choice = input("\nPress ENTER to begin your journey, or press q to give up > ").lower().strip()

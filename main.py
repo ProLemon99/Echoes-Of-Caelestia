@@ -12,7 +12,7 @@ def main():
     intro_result = read_intro_file()
 
     if intro_result == "quit":
-        print(c("\nYou chose not to deal with the stress you'll face and go back to sleep.", "blue"))
+        print(c("\nYou chose not to deal with the stress you'll face and go back to sleep.", "cyan"))
         print(c("ENDING: GIVE UP", "bold"))
         return
 
